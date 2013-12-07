@@ -1,0 +1,129 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+body {
+    width: 100%;
+}
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+fieldset {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#middle .form-control
+{
+    margin-top: 15px;
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+}
+
+#table
+{
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    width:100%;
+    border-collapse:collapse;
+}
+
+#table td, #table th 
+{
+    font-size:1em;
+    border:1px solid #000000;
+    padding:3px 7px 2px 7px;
+    text-align: left;
+}
+
+#table th 
+{
+    font-size:1.1em;
+    text-align:left;
+    padding-top:5px;
+    padding-bottom:4px;
+    background-color:#5D59EC;
+    color:#ffffff;
+}
+
+#table tr.alt td 
+{
+    color:#000000;
+    background-color:#000000;
+}
+
+
+#portfolio
+{
+    
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    width:60%;
+    margin: 0px auto; 
+}
+
+#portfolio td, #portfolio th 
+{
+    font-size:1em;
+    padding:2px 2px 2px 2px;
+    text-align: center;
+}
+
+.upper
+{   
+    font-family: Georgia;
+    font-size: 2em;
+    padding-top: 10px;
+    padding-left: 10px;
+    display:block;
+    margin-left:0;
+    margin-bottom: 10px;
+    width:100%;
+    border:3px solid black;
+    background-color:green;
+    text-align: left;
+    color:white;
+}
+
+.upper a {
+    color:white;
+}
+
+.logo {
+    display:inline-block;
+    float:left;
+    width:25%;
+}
+
+.form {
+    display:inline-block;
+    vertical-align: middle;
+    float:left;
+    width:50%;
+    height:90px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
